@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and credentials
+.env
+.venv/
+venv/
+env/
+kaggle.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets and local databases
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts and generated outputs
+plots/
+runs/
+outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.msgpack
+*.ckpt
+
+# Notebook scratch work
+*.ipynb
+.ipynb_checkpoints/
+
+# Hugging Face caches
+.cache/
